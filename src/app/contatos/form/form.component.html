@@ -1,0 +1,40 @@
+<mat-card>
+    <form [formGroup]="form">
+    <h1 mat-dialog-title class="alinhar">Hi</h1>
+    <mat-form-field class="form" appearance="fill">
+        <mat-label>Nome</mat-label>
+        <input 
+        name="name"
+        matInput 
+        placeholder="Ex. Maria" 
+        formControlName="name"
+        >
+    </mat-form-field>
+    <mat-form-field class="form" appearance="fill">
+        <mat-label>Sobrenome</mat-label>
+        <input 
+        formControlName="surname"
+        name="surname" 
+        matInput 
+        placeholder="Ex. Silva"
+        >
+    </mat-form-field>
+    <mat-form-field class="form" appearance="fill">
+        <mat-label>Telefone</mat-label>
+        <span matPrefix>+55 &nbsp;</span>
+        <input 
+        formControlName="phone"
+        name="phone" 
+        type="tel" 
+        matInput 
+        placeholder="(DDD) 99999-9999"
+        >
+    </mat-form-field>
+</form>
+<div mat-dialog-actions class="alinhar">
+  <button mat-button  color="warn"(click)="onCancel()">Cancelar</button>
+  <button mat-button cdkFocusInitial color="primary" (click)="onSubmit()">Salvar</button>
+</div>
+
+   
+</mat-card>

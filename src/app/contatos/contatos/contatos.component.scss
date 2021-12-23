@@ -1,0 +1,27 @@
+table {
+  width: 100%; 
+}
+mat-card {
+width: 85%;
+margin: auto;
+}
+mat-spinner{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.loading-spinner{
+  background: rgba(0,0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textoDireita{
+  text-align: right;
+}
+.novo{
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
