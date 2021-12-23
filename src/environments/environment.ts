@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   //baseUrl: 'http://localhost:8080/'
-  baseUrl: 'http://calm-hollows-73101.herokuapp.com/agenda'
+  baseUrl: 'http://calm-hollows-73101.herokuapp.com/agenda/'
 };
 
 /*
